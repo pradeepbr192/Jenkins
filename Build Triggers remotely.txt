@@ -1,0 +1,11 @@
+Build Triggers:
+
+Build Triggers remotely:
+
+1. Copy JENKINS_URL/job/pythonscript/build?token=TOKEN_NAME and replace JENKINS_URL with the jenkins URL. While running locally, it would be localhost:8080(ex:localhost:8080/job/pythonscript/build?token=TOKEN_NAME).
+
+2. Give an Authentication token(Ex: 12345)
+
+3. Save and apply.
+
+4. Launch http://localhost:8080/job/pythonscript/build?token=12345678 in a separate window. This would trigger the build remotely.
